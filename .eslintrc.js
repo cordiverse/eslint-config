@@ -17,6 +17,7 @@ module.exports = {
     'max-len': ['warn', 160],
     'multiline-ternary': 'off',
     'no-mixed-operators': 'off',
+    'no-new': 'off',
     'no-use-before-define': 'off',
     'no-return-assign': 'off',
     'no-sequences': 'off',
