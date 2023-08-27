@@ -16,6 +16,8 @@ module.exports = {
     'generator-star-spacing': ['error', 'after'],
     'max-len': ['warn', 160],
     'multiline-ternary': 'off',
+    'no-ex-assign': 'off',
+    'no-labels': 'off',
     'no-mixed-operators': 'off',
     'no-new': 'off',
     'no-use-before-define': 'off',
@@ -54,7 +56,7 @@ module.exports = {
       { selector: ['typeLike'], format: ['PascalCase'] },
 
       // selectors
-      { selector: ['function'], format: ['camelCase', 'PascalCase'] },
+      { selector: ['function'], format: ['camelCase', 'PascalCase'], leadingUnderscore: 'allow' },
       { selector: ['enum'], format: ['UPPER_CASE', 'PascalCase'] },
       { selector: ['typeParameter'], format: ['PascalCase'] },
       { selector: ['objectLiteralProperty'], format: null },
